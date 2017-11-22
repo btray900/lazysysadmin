@@ -99,7 +99,7 @@ cat /etc/passwd
 
 Try togie user with WP credentials. Fail.
 
-Try togie user with deets.txt credentials. Success
+Try togie user with deets.txt credentials for shell then sudo to root. Success
 
 ![Alt text](./rooted.png?raw=true)
 
