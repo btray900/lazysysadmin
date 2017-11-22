@@ -107,4 +107,4 @@ Try togie user with deets.txt credentials for shell then sudo to root. Success
 
 # THANKS!
 
-This was big fun! Many thanks to Togie!
+Some strings to poke around on. This was big fun. Many thanks to Togie!
