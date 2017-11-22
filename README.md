@@ -7,19 +7,28 @@ Obtain the DHCP IP of the VM.
 
 ![Alt text](./netdiscover.png?raw=true)
 
+
 ## nmap
 
-Find interesting ports
+Find interesting ports and dig some on SMB. A RW share is found.
 
-### Check shares
+![Alt text](./nmap.png?raw=true)
+
+![Alt text](./enum-smb.png?raw=true)
 
 
 ## enum4linux
 
-I assumedit was a windows box, note 'togie' user
+I assumedit was a Windows box, note 'togie' user found. I missed the 'Unix' part until later ;)
 
+![Alt text](./enum4linux.png?raw=true)
+
+
+## smbclient
 
 ### Find Wordpress dir and get wp-config.php password
+
+![Alt text](./wp-config.png?raw=true)
 
 
 ## Login
