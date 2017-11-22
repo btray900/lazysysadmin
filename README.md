@@ -37,9 +37,18 @@ Found Wordpress dir, interesting TXT files and get wp-config.php password. I cou
 
 ![Alt text](./smbclient.png?raw=true)
 
+
+## Get
+
+Downloaded the wp-config.php file for inspection. Credetnials found.
+
 ![Alt text](./wp-config.png?raw=true)
 
-Found deets.txt with compromised credential information.
+
+
+## Browser
+
+Browsing to deets.txt exposed another compromised password.
 
 ![Alt text](./deets.png?raw=true)
 
@@ -89,5 +98,7 @@ Try togie user with deets.txt credentials. Success
 
 ![Alt text](./rooted.png?raw=true)
 
+
+# THANKS!
 
 This was big fun! Many thanks to Togie!
