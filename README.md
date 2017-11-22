@@ -4,7 +4,8 @@ Vulnhub walkthrough
 ## netdiscover
 
 Obtain the DHCP IP of the VM.
-[netdiscver pic]
+
+![Alt text](./netdiscover.png?raw=true)
 
 ## nmap
 
