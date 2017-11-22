@@ -1,6 +1,8 @@
 # lazysysadmin
 Vulnhub walkthrough
 
+The optional steps are ones I took before the end result was acheived, so there are multiple ways to obtain the necessary information to root this VM.
+
 
 
 ## netdiscover
@@ -38,9 +40,10 @@ Found Wordpress dir, interesting TXT files and get wp-config.php password. I cou
 ![Alt text](./smbclient.png?raw=true)
 
 
-## Get
 
-Downloaded the wp-config.php file for inspection. Credetnials found.
+## Get (optional)
+
+Downloaded the wp-config.php file for inspection. Credentials found.
 
 ![Alt text](./wp-config.png?raw=true)
 
@@ -54,7 +57,7 @@ Browsing to deets.txt exposed another compromised password.
 
 
 
-## wpscan
+## wpscan (optional)
 
 Enumerated WP users. Since I could not write to the share, a semi-brutable WP login seemed likely.
 
@@ -62,7 +65,7 @@ Enumerated WP users. Since I could not write to the share, a semi-brutable WP lo
 
 
 
-## WP Admin Login
+## WP Admin Login (optional)
 
 User: admin
 
@@ -70,15 +73,17 @@ Password: Compromised in wp-config.php file
 
 
 
-## PHP Code plugin
+## PHP Code plugin (optional)
 
 Download/upload PHP Code Widget plugin and insert Pentest Monkey reverse PHP code. This is where I used cmd.exe originally and changed it back to /bin/sh.
+
+This step was not really necessary but PHP code widgets are my go-to move on WP installations.
 
 ![Alt text](./widget.png?raw=true)
 
 
 
-## nc & shell
+## nc & shell (optional)
 
 Start listener, visit home page, get shell.
 
@@ -97,6 +102,7 @@ Try togie user with WP credentials. Fail.
 Try togie user with deets.txt credentials. Success
 
 ![Alt text](./rooted.png?raw=true)
+
 
 
 # THANKS!
