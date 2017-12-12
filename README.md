@@ -25,9 +25,7 @@ Find interesting ports and dig some on SMB. A RW share is found.
 
 ## enum4linux
 
-I assumed this was a Windows box, note 'togie' user found. I missed the 'Unix' part until later. When I ran the PHP code widget with the PHP reverse shell I used cmd.exe at first but received Not Found error. ;)
-
-I tend to rush my enumeration with CTF's and boot2roots because they are known to be vulnerable. It's a bad habit. :(
+I assumed this was a Windows box, note 'togie' user found. I missed the 'Unix' part until later. When I ran the PHP code widget with the PHP reverse shell I used cmd.exe at first but received Not Found error. Don't rush your enumeration.
 
 ![Alt text](./enum4linux.png?raw=true)
 
@@ -75,9 +73,7 @@ Password: Compromised in wp-config.php file
 
 ## PHP Code plugin (optional)
 
-Download/upload PHP Code Widget plugin and insert Pentest Monkey reverse PHP code. This is where I used cmd.exe originally and changed it back to /bin/sh.
-
-This step was not really necessary but PHP code widgets are my go-to move on WP installations.
+Download/upload PHP Code Widget plugin and insert Pentest Monkey reverse PHP code. This is where I used cmd.exe originally and the error was a clue for OS detection.
 
 ![Alt text](./widget.png?raw=true)
 
@@ -105,6 +101,6 @@ Try togie user with deets.txt credentials for shell then sudo to root. Success
 
 
 
-# THANKS!
+# THANKS
 
-Some strings to poke around on. This was big fun. Many thanks to Togie!
+Some strings to poke around on. Thanks out to Togie.
