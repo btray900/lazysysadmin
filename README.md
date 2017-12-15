@@ -97,6 +97,15 @@ Try togie user with WP credentials. Fail.
 
 Try togie user with deets.txt credentials for shell then sudo to root. Success
 
+
+## root
+
+<html><pre>
+\(*_*)
+  ( (>
+  /  \
+  </pre></html>
+
 ![Alt text](./rooted.png?raw=true)
 
 
