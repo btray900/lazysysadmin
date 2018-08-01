@@ -1,7 +1,7 @@
 # lazysysadmin
 Vulnhub walkthrough
 
-The optional steps are ones I took before the end result was acheived, so there are multiple ways to obtain the necessary information to root this VM.
+The optional steps are ones I took before the end result was achieved, so there are multiple ways to obtain the necessary information to root this VM.
 
 
 
